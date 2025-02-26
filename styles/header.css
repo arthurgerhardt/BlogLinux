@@ -1,4 +1,4 @@
-header {
+header.top {
   max-width: 80rem;
   width: 100%;
   padding: 1.25rem 2rem;
@@ -9,32 +9,32 @@ header {
   justify-content: space-between;
 }
 
-img {
+header img {
   width: 2rem;
   height: 2rem;
 
   transition: transform 500ms;
 }
 
-img[src*="logo"]:hover {
+header img[src*="logo"]:hover {
   transform: rotate(90deg);
 }
 
-img[src*="shopping"]:hover {
+header img[src*="shopping"]:hover {
   transform: rotate(-30deg);
 }
 
-a {
+header a {
   position: relative;
 }
 
-a span {
+header a span {
   font: 500 0.75rem/1.3 "Inter", sans-serif;
   position: absolute;
   top: -0.5rem;
   right: -0.5rem;
 
-  background-color: var(--snitap-sun);
+  background-color: var(--linux-sun);
   width: 1.25rem;
   height: 1.25rem;
 

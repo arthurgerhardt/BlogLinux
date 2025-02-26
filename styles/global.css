@@ -5,16 +5,16 @@
 }
 
 :root {
-  --snitap-sun: #FFCD1E;
-  --snitap-sky-mid: #06B6D4;
-  --snitap-sky-light: #67E8F9;
-  --snitap-joy-mid: #DB2777;
-  --snitap-joy-light: #F472B6;
-  --snitap-joy-leaf: #16A34A;
+  --linux-sun: #FFCD1E;
+  --linux-sky-mid: #06B6D4;
+  --linux-sky-light: #67E8F9;
+  --linux-joy-mid: #eb750d;
+  --linux-joy-light: #f71128;
+  --linux-joy-leaf: #16A34A;
 
-  --text: #fcfcfc;
+  --text: #ede5e5;
   --highlights: #000000;
-  --background: #635a5a;
+  --background: #434040;
 
   --font-family: 'Montserrat', sans-serif;
   --text-sm: 0.875rem;
@@ -26,6 +26,10 @@
 
 html, button {
   font: 500 1rem/1.5 var(--font-family);
+}
+
+html {
+  zoom: .5;
 }
 
 h1, h2 {
@@ -52,24 +56,4 @@ body {
   font-family: var(--font-family);
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-}
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .container {
-    width: 100%;
-    padding: 0.5rem;
-  }
-}
